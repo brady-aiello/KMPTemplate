@@ -1,8 +1,8 @@
-package com.example.kmmtemplate.android
+package com.example.kmptemplate.android
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.kmmtemplate.Greeting
+import com.example.kmptemplate.Greeting
 import android.widget.TextView
 
 fun greet(): String {

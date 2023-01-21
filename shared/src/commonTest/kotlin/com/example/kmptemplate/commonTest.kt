@@ -1,4 +1,4 @@
-package com.example.kmmtemplate
+package com.example.kmptemplate
 
 import kotlin.test.Test
 import kotlin.test.assertTrue

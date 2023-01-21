@@ -1,4 +1,4 @@
-package com.example.kmmtemplate
+package com.example.kmptemplate
 
 import platform.UIKit.UIDevice
 

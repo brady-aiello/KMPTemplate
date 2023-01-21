@@ -1,4 +1,4 @@
-package com.example.kmmtemplate
+package com.example.kmptemplate
 
 expect class Platform() {
     val platform: String

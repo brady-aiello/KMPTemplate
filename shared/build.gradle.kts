@@ -5,6 +5,7 @@ plugins {
     kotlin("plugin.serialization")
     id("com.squareup.sqldelight")
     id("org.jlleitschuh.gradle.ktlint")
+    id("org.jetbrains.compose")
 }
 
 version = "1.0"
