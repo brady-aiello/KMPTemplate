@@ -15,6 +15,11 @@ kotlin {
     iosX64()
     iosArm64()
     iosSimulatorArm64()
+    jvm()
+    js(IR) {
+        useCommonJs()
+        browser()
+    }
 
     cocoapods {
         summary = "Some description for the Shared Module"
@@ -91,6 +96,21 @@ kotlin {
             iosX64Test.dependsOn(this)
             iosArm64Test.dependsOn(this)
             iosSimulatorArm64Test.dependsOn(this)
+        }
+
+        val jvmMain by getting {
+
+        }
+        val jvmTest by getting {
+
+        }
+
+        val jsMain by getting {
+
+        }
+
+        val jsTest by getting {
+
         }
     }
 }
